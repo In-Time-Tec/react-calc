@@ -1,0 +1,20 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "hostRequirements": {
+    "cpus": 4
+  },
+  "features": {
+    "ghcr.io/balazs23/devcontainers-features/nx:1": {},
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "npm i",
+  "postAttachCommand": "npm run start",
+  "customizations": {},
+  "portsAttributes": {
+    "3000": {
+      "label": "Application",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "forwardPorts": [3000]
+}

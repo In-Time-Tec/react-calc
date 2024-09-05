@@ -1,0 +1,48 @@
+{
+  "name": "calculator-react-typescript",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://tuanpham-dev.github.io/calculator-react-typescript/",
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/react": "^16.9.34",
+    "@types/react-dom": "^16.9.6",
+    "gh-pages": "^2.2.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.0",
+    "typescript": "^3.7.5"
+  },
+  "scripts": {
+    "start": "BROWSER=none WDS_SOCKET_PORT=0 vite --port 3000",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/styled-components": "^5.0.1",
+    "@vitejs/plugin-react": "^4.1.1",
+    "jsdom": "^22.1.0",
+    "vite": "^4.5.1",
+    "vitest": "^0.34.6"
+  }
+}
